@@ -35,7 +35,7 @@ img {
   --dark-color: #221f20;
   --container-padding-inline: 13%;
   --footer-padding-inline: 10%;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     --container-padding-inline: 6%;
     --footer-padding-inline: 6%;
   }
@@ -75,7 +75,7 @@ html {
     background-color: #000;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       font-size: 36px;
     }
@@ -94,7 +94,7 @@ html {
   background: url('../img/main-bg.jpg') center center / cover no-repeat;
   padding-top: 75px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       background-image: url('../img/tablet_bg.png');
     }
@@ -135,7 +135,7 @@ html {
   font-size: 32px;
   font-weight: 100;
   line-height: normal;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       margin-top: 80px;
     }
@@ -210,7 +210,7 @@ html {
     background: url(../icons/Arrow.svg) center center / cover no-repeat;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       margin-top: 80px;
     }
@@ -263,7 +263,7 @@ html {
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     /* & li {
       display: none;
     }
@@ -329,7 +329,7 @@ html {
   column-gap: 10px;
   margin-top: 80px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       flex-wrap: wrap;
       justify-content: center;
@@ -396,7 +396,7 @@ html {
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       width: 100%;
     }
@@ -451,7 +451,7 @@ html {
   margin-top: 80px;
   background-color: var(--light-color);
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     margin-top: 50px;
   }
 }
@@ -469,7 +469,7 @@ html {
     object-fit: cover;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       margin-top: 40px;
       gap: 30px 20px;
@@ -487,7 +487,7 @@ html {
   margin-top: 80px;
   background-color: var(--light-color);
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       margin-top: 50px;
     }
@@ -507,7 +507,7 @@ html {
     object-fit: cover;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       margin-top: 40px;
       grid-template-columns: repeat(2, 1fr);
@@ -528,7 +528,7 @@ html {
   grid-column: 4;
   grid-row: 1/3;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       grid-column: 2;
       grid-row: 2/4;
@@ -539,7 +539,7 @@ html {
 .inspiration__sky-img {
   grid-column: 2/4;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       grid-column: 1/3;
     }
@@ -556,7 +556,7 @@ html {
   background-color: var(--light-color);
   margin-top: 80px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       margin-top: 50px;
     }
@@ -573,7 +573,7 @@ html {
     box-shadow: 7px 7px 12px 0 rgba(0, 0, 0, 0.25);
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       margin-top: 40px;
       gap: 20px;
@@ -603,7 +603,7 @@ html {
   min-height: 200px;
   padding: 88px var(--footer-padding-inline);
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 850px) {
     & {
       margin-top: 50px;
       padding: 30px 0 40px 0;
